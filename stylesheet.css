@@ -19,4 +19,6 @@ body {
   margin: 50px auto;
   padding-left: 70px;
 }
-  
+nav {
+  text-decoration: none;
+}
