@@ -57,6 +57,12 @@ nav li {
 		display: list-item;
 		list-style-type: none;
 	}
+	.nav--small {
+		display:none;
+	}
+	.checkbox:checked {
+		display:list-item;
+	}
 	nav li {
 	  display: list-item;
 	  margin-bottom: 15px;
