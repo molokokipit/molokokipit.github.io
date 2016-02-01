@@ -7,6 +7,8 @@ html {
 }
 header {
   position: relative;
+  top: 90px;
+  text-align: center;
 }
 body {
   background-color: white;
@@ -40,5 +42,5 @@ nav li {
   display: inline-block;
   margin-right: 70px;
   margin-left: 30px;
-  margin-top: 20px;
+  margin-top: auto;
 }
