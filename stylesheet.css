@@ -20,12 +20,12 @@ body {
   -webkit-text-size-adjust: 100%; 
 }
 .content {
-  text-align: center;
   margin: 110px auto;
   padding-left: 70px;
   padding-right: 30px;
 }
 nav {
+  text-align: center;
   position: fixed;
   top: 0px;
   left: 0px;
