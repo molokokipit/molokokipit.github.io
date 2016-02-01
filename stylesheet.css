@@ -47,7 +47,9 @@ nav li {
   margin-top: auto;
 }
 .checkbox {
-	display:none;
+	position:fixed;
+	top: -100px;
+	left: -100px;
 }
 .nav--checkbox {
 	display: none;
@@ -61,15 +63,16 @@ nav li {
 		display:none;
 	}
 	.checkbox:checked {
-		.nav--small {
-			display: list-item;
-			margin-bottom: 15px;
-			font-size: 1rem;
-		}
+		
 	}
 	header {
 	  top: 235px;
 	  font-size: 0.9rem;
+	}
+	nav li {
+		display: list-item;
+		margin-bottom: 15px;
+		font-size: 1rem;
 	}
 	.content {
 	  font-size: 0.9rem;
