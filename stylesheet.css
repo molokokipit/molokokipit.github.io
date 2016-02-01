@@ -21,4 +21,5 @@ body {
 }
 nav {
   text-decoration: none;
+  list-style-type: none;
 }
