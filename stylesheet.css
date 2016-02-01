@@ -46,7 +46,7 @@ nav li {
   margin-left: 30px;
   margin-top: auto;
 }
-checkbox {
+.checkbox {
 	display:none;
 }
 .nav--checkbox {
