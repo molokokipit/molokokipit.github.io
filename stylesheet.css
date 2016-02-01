@@ -60,10 +60,12 @@ nav li {
 		list-style-type: none;
 	}
 	.nav--small {
-		display:none;
+		z-index:-1;
 	}
 	.checkbox:checked {
-		
+		.nav-small {
+			z-index:9;
+		}
 	}
 	header {
 	  top: 235px;
