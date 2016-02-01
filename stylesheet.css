@@ -46,3 +46,20 @@ nav li {
   margin-left: 30px;
   margin-top: auto;
 }
+@media (max-width: 970px) {
+	nav li {
+	  display: list-item;
+	  margin-bottom: 15px;
+	  font-size: 1rem;
+	}
+	header {
+    top: 235px;
+	  font-size: 0.9rem;
+	}
+	.content {
+	  font-size: 0.9rem;
+	  margin: 270px auto;
+	  padding-left: 30px;
+	  padding-right: 5px;
+	}
+}
