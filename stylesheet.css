@@ -49,6 +49,7 @@ html {
   .inline-list {
     flex-direction: column;
   }
+  .inline-list--item__checkbox {display: "";}
   .inline-list--item{
     margin-top: 10px;
     margin-bottom: 5px;
