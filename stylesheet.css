@@ -27,22 +27,42 @@ html {
   height: 50px;
 }
 .inline-list--item{
-
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 1.3rem;
+  width: 60px;
 }
 .inline-list--item__first {
-  margin-left: 30px;
+  margin-left: 80px;
+  margin-right: 60px;
 }
 .inline-list--item__last {
-  margin-right: 30px;
+  margin-right: 60px;
 }
 .inline-list--a {
   text-decoration: none;
   color: #333;
 }
-.inline-list--item__checkbox {
-  display: none;
+.nav-top--trigger {display: none;}
+.inline-list--item__checkbox {display: none;}
+@media (max-width: 810px) {
+  .inline-list {
+    flex-direction: column;
+  }
+  .inline-list--item{
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .inline-list--item__first {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .inline-list--item__last {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
 }
-
 
 /*
 header {
