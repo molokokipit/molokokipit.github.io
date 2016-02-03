@@ -26,10 +26,11 @@
 	</div>
 	<script type="text/javascript">
 	function validate() {
+		var inner = Document.getElementsByClassName(inline-list--item__item);
 		if (navTopTrigger) {
-			Document.getElementsByClassName(inline-list--item__item).style.display = "";
+			inner.style.display = "inline";
 		}else{
-			Document.getElementsByClassName(inline-list--item__item).style.display = "none"
+			inner.style.display = "none";
 		}
 	}
 	</script>
