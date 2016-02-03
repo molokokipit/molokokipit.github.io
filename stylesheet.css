@@ -27,10 +27,11 @@ html {
   height: 50px;
 }
 .inline-list--item{
-
+  font-size: 1.3rem;
 }
 .inline-list--item__first {
-  margin-left: 30px;
+  margin-left: 60px;
+  margin-right: 40px;
 }
 .inline-list--item__last {
   margin-right: 30px;
