@@ -42,10 +42,16 @@ nav a{
 nav li {
   font-size: 1.4rem;
   list-style-type: none;
+<<<<<<< HEAD
   display: inline-block;
   margin-right: 70px;
   margin-left: 30px;
 
+=======
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+>>>>>>> master
 }
 .checkbox {
 	position:fixed;
