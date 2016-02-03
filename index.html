@@ -13,16 +13,25 @@
 </header>
 <nav class="nav-top">
 	<ul class="inline-list">
-		<li class="inline-list--item inline-list--item__checkbox"><label><input type="checkbox" class="nav-top--trigger">menu</label></li>
-		<li class="inline-list--item inline-list--item__first"><a href="#" class="inline-list--a">Home</a></li>
-		<li class="inline-list--item"><a href="#" class="inline-list--a">Gallery</a></li>
-		<li class="inline-list--item"><a href="#" class="inline-list--a">About us</a></li>
-		<li class="inline-list--item"><a href="#" class="inline-list--a">Contact us</a></li>
-		<li class="inline-list--item inline-list--item__last"><a href="#" class="inline-list--a">Comments</a></li>
+		<li class="inline-list--item inline-list--item__checkbox"><label><input type="checkbox" class="nav-top--trigger" id="nav-top--trigger" onclick="validate()">menu</label></li>
+		<li class="inline-list--item inline-list--item__item inline-list--item__first"><a href="#" class="inline-list--a">Home</a></li>
+		<li class="inline-list--item inline-list--item__item"><a href="#" class="inline-list--a">Gallery</a></li>
+		<li class="inline-list--item inline-list--item__item"><a href="#" class="inline-list--a">About us</a></li>
+		<li class="inline-list--item inline-list--item__item"><a href="#" class="inline-list--a">Contact us</a></li>
+		<li class="inline-list--item inline-list--item__item inline-list--item__last"><a href="#" class="inline-list--a">Comments</a></li>
 	</ul>
 </nav>
 	<div class="content">
 	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi expedita vero, iusto explicabo obcaecati aspernatur saepe odit? Ipsum, a magnam numquam laudantium nisi dignissimos quam, ullam facere perspiciatis voluptatibus! Dolor enim sed non voluptates, eum expedita aliquid facere culpa necessitatibus porro recusandae tempora repellat sunt accusantium quis, optio eligendi facilis ipsam, tenetur. Vitae quis optio itaque id, assumenda repudiandae dolore quisquam cumque odit harum aliquid animi doloribus iste numquam odio quaerat atque enim, mollitia dolorum. Totam quibusdam laborum sed quos doloremque quis blanditiis laudantium voluptas et, sequi architecto voluptate eum dolor voluptatibus! Est soluta nobis natus cumque fugit recusandae deleniti rem vero voluptatibus! Ut vel nulla debitis nam quod, nostrum illum voluptatem earum rerum laborum facere optio aperiam natus culpa qui animi doloribus atque pariatur suscipit quas doloremque molestiae. Explicabo maiores consectetur ex deleniti tempora eligendi ipsum amet ea? Alias perspiciatis repellat totam! Quis debitis sequi maxime quibusdam, quidem! Eaque quaerat, dignissimos quidem vel consectetur labore accusamus, pariatur tenetur dicta cupiditate quas perspiciatis temporibus esse explicabo, et, nihil dolores. Inventore quos ullam officia doloremque perspiciatis recusandae, esse. Fugiat nostrum impedit in, nulla doloribus facere sapiente, suscipit dolore atque deserunt quos ex. Ullam, corporis sit aspernatur similique eos, quod asperiores ipsum.
 	</div>
+	<script type="text/javascript">
+	function validate() {
+		if (nav-top--trigger) {
+			Document.getElementsByClassName(inline-list--item__item).style.display = "";
+		}else{
+			Document.getElementsByClassName(inline-list--item__item).style.display = "none"
+		}
+	}
+	</script>
 </body>
 </html>
