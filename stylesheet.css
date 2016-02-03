@@ -17,9 +17,12 @@ html {
 }
 .inline-list {
   list-style-type: none;
-  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
 }
-
+.inline-list--a {text-decoration: none;}
 
 /*
 header {
