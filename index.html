@@ -13,7 +13,7 @@
 </header>
 <nav class="nav-top">
 	<ul class="inline-list">
-		<li class="inline-list--item inline-list--item__checkbox"><label><input type="checkbox" class="nav-top--trigger" id="nav-top--trigger" onclick="validate()">menu</label></li>
+		<li class="inline-list--item inline-list--item__checkbox"><label><input type="checkbox" class="nav-top--trigger" id="navTopTrigger" onclick="validate()">menu</label></li>
 		<li class="inline-list--item inline-list--item__item inline-list--item__first"><a href="#" class="inline-list--a">Home</a></li>
 		<li class="inline-list--item inline-list--item__item"><a href="#" class="inline-list--a">Gallery</a></li>
 		<li class="inline-list--item inline-list--item__item"><a href="#" class="inline-list--a">About us</a></li>
@@ -26,7 +26,7 @@
 	</div>
 	<script type="text/javascript">
 	function validate() {
-		if (nav-top--trigger) {
+		if (navTopTrigger) {
 			Document.getElementsByClassName(inline-list--item__item).style.display = "";
 		}else{
 			Document.getElementsByClassName(inline-list--item__item).style.display = "none"
