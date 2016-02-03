@@ -21,8 +21,12 @@ html {
   padding: 0px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
-.inline-list--a {text-decoration: none;}
+.inline-list--a {
+  text-decoration: none;
+  color: #333;
+}
 
 /*
 header {
